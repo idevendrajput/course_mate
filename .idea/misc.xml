@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/deven/AndroidStudioProjects/A/CourseMate/app/src/main/res/layout/activity_quiz_player.xml" value="0.2191780821917808" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/A/CourseMate/app/src/main/res/layout/fragment_login__page.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/A/CourseMate/app/src/main/res/layout/fragment_login_screen.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/A/CourseMate/app/src/main/res/layout/fragment_my_account.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/A/CourseMate/app/src/main/res/layout/fragment_my_library.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/A/CourseMate/app/src/main/res/layout/fragment_notes.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable-v24/ic_round_person_add_alt_24.xml" value="0.1545" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable-v24/ic_round_subject_24.xml" value="0.185" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable-v24/rounded_shape_dark.xml" value="0.1545" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable-v24/shield_check_24.xml" value="0.1545" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/angle_left_24.xml" value="0.1495" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/bnb_gradient.xml" value="0.1495" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.185" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/cursor.xml" value="0.1625" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/cursor_black.xml" value="0.198" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/cursor_white.xml" value="0.1625" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/gradient_quiz.xml" value="0.151" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_baseline_mouse_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_account_balance_wallet_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_account_circle_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_alternate_email_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_arrow_back_ios_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_arrow_forward_ios_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_chat_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_edit_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_feed_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_female_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_home_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_keyboard_arrow_down_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_local_library_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_male_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_menu_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_monetization_on_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_password_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_people_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_person_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_phone_android_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/ic_round_policy_24.xml" value="0.17" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/progress_circle.xml" value="0.132" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/rounded_bg.xml" value="0.159" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/rounded_bg_50.xml" value="0.1285" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/stroke_1.xml" value="0.264" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/drawable/stroke_1_black_dash.xml" value="0.1285" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/font/roboto.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/activity_my_team.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/activity_quiz_player.xml" value="0.2" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/activity_review.xml" value="0.20972222222222223" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/activity_score_board.xml" value="0.20972222222222223" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/country_code_dialog.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/dialog_loading.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_affiliate_program.xml" value="0.2359375" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_books_and_notes.xml" value="0.20972222222222223" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_edit__profile.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_edit_profile.xml" value="0.19537037037037036" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_feed_viewer.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_forget_password.xml" value="0.2191780821917808" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_generate_password.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_home.xml" value="0.16818500350385424" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_home_items.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_information_page.xml" value="0.2191780821917808" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_informations.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_live_chat_support.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_login__page.xml" value="0.2191780821917808" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_login_screen.xml" value="0.264" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_my_account.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_my_library.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_notes.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_notes_editor.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_notes_info.xml" value="0.2" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_notes_page.xml" value="0.20972222222222223" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_notes_viewer.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_post_viewer.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_quiz_child.xml" value="0.2" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_quiz_player.xml" value="0.2" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_register.xml" value="0.2191780821917808" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_splash__page.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_the_feed.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_verify_otp.xml" value="0.2191780821917808" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_wallet.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/fragment_web_script_viewer.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/nav_layout.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_books_notes.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_current_affairs.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_feed_images.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_feed_post.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_home_page_items.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_home_recommended.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_image_notes_info.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_leaderboard.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_news_horizontal_home.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_notes.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_quiz.xml" value="0.23425925925925925" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_quiz_categories.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_reels.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_review_questions.xml" value="0.2" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_simple_progress_view.xml" value="0.1" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/layout/row_item_slider.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/deven/AndroidStudioProjects/CourseMate/app/src/main/res/menu/navigation_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

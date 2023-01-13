@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "116122481646",
+    "project_id": "course-mate-3787a",
+    "storage_bucket": "course-mate-3787a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116122481646:android:9501fec5ade34e09a7d4ff",
+        "android_client_info": {
+          "package_name": "com.dr.coursemate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116122481646-djrvfb8i3vb7k082apo4luetuja5aevt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu4ZcNc2T7dlWGfvFD9fJk5IPvfwviT3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116122481646-djrvfb8i3vb7k082apo4luetuja5aevt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

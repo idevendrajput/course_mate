@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarThumbVertical="@null"
+    tools:context=".auth.LoginScreen">
+
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Mate"
+        android:textSize="25sp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/white"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/parentPhone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/parentPhone"
+        app:layout_constraintStart_toStartOf="@+id/parentPhone"
+        android:id="@+id/countryCode"
+        android:text="+91 (IN)"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:textColor="@color/white"
+        app:drawableStartCompat="@drawable/ic_round_keyboard_arrow_down_24"
+        app:drawableTint="@color/white" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:boxCornerRadiusTopEnd="30dp"
+        android:id="@+id/parentPhone"
+        app:hintTextColor="@color/white"
+        android:textColorHint="#BCBCBC"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:backgroundTint="@color/white"
+        app:boxCornerRadiusTopStart="30dp"
+        app:boxStrokeColor="@color/white"
+        app:boxStrokeWidth="1dp"
+        android:layout_margin="15dp"
+        app:boxStrokeErrorColor="@color/red"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:id="@+id/phone"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_round_phone_android_24"
+            android:drawableTint="@color/white"
+            android:drawablePadding="10dp"
+            android:inputType="number"
+            android:textCursorDrawable="@drawable/cursor_white"
+            android:padding="15dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/layout_verification_code"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            app:boxCornerRadiusBottomEnd="30dp"
+            app:boxCornerRadiusBottomStart="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:boxCornerRadiusTopEnd="30dp"
+            android:id="@+id/parentVerificationCode"
+            app:hintTextColor="@color/white"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="#BCBCBC"
+            android:backgroundTint="@color/white"
+            app:boxCornerRadiusTopStart="30dp"
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeWidth="1dp"
+            android:layout_margin="15dp"
+            app:boxStrokeErrorColor="@color/red"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Verification Code"
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:drawablePadding="10dp"
+                android:id="@+id/verificationCode"
+                android:drawableTint="@color/white"
+                android:drawableStart="@drawable/ic_round_password_24"
+                android:textCursorDrawable="@drawable/cursor_white"
+                android:padding="15dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resend"
+            android:id="@+id/resend"
+            android:background="?android:selectableItemBackgroundBorderless"
+            app:layout_constraintTop_toBottomOf="@+id/parentVerificationCode"
+            app:layout_constraintStart_toStartOf="@+id/parentVerificationCode"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="100dp"
+        app:cornerRadius="10sp"
+        android:paddingVertical="10sp"
+        android:text="Login Securely"
+        app:backgroundTint="@color/main"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

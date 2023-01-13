@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Wallet"
+        android:icon="@drawable/ic_round_account_balance_wallet_24"
+        android:id="@+id/wallet" />
+
+    <item
+        android:title="Affiliate Program"
+        android:icon="@drawable/ic_round_monetization_on_24"
+        android:id="@+id/affiliate_program" />
+
+    <item
+        android:title="Live Chat Support"
+        android:icon="@drawable/ic_round_chat_24"
+        android:id="@+id/live_support" />
+
+    <item
+        android:title="How to use"
+        android:icon="@drawable/ic_baseline_mouse_24"
+        android:id="@+id/how_to_use" />
+
+    <group android:menuCategory="container"  >
+
+        <item
+            android:title="Privacy &amp; Policy"
+            android:id="@+id/privacy"
+            android:icon="@drawable/ic_round_policy_24" />
+
+        <item
+            android:title="About Us"
+            android:icon="@drawable/ic_round_people_24"
+            android:id="@+id/about_us" />
+
+    </group>
+
+</menu>

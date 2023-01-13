@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/register">
+
+    <fragment
+        android:id="@+id/informations"
+        android:name="com.dr.coursemate.auth.Information"
+        android:label="fragment_informations"
+        tools:layout="@layout/fragment_informations" />
+    <fragment
+        android:id="@+id/home"
+        android:name="com.dr.coursemate.home_page.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_homeItems"
+            app:destination="@id/homeItems" />
+        <action
+            android:id="@+id/action_home_to_theFeed2"
+            app:destination="@id/theFeed" />
+        <action
+            android:id="@+id/action_home_to_account"
+            app:destination="@id/account" />
+        <action
+            android:id="@+id/action_home_to_wallet"
+            app:destination="@id/wallet" />
+        <action
+            android:id="@+id/action_home_to_liveChatSupport"
+            app:destination="@id/liveChatSupport" />
+        <action
+            android:id="@+id/action_home_to_webScriptViewer"
+            app:destination="@id/webScriptViewer" />
+        <action
+            android:id="@+id/action_home_to_affiliateProgram"
+            app:destination="@id/affiliateProgram" />
+        <action
+            android:id="@+id/action_home_to_myAccount"
+            app:destination="@id/account" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeItems"
+        android:name="com.dr.coursemate.HomeItems"
+        android:label="fragment_home_items"
+        tools:layout="@layout/fragment_home_items" >
+        <action
+            android:id="@+id/action_homeItems_to_feedViewer"
+            app:destination="@id/feedViewer" />
+    </fragment>
+    <fragment
+        android:id="@+id/myLibrary"
+        android:name="com.dr.coursemate.MyLibrary"
+        android:label="fragment_my_library"
+        tools:layout="@layout/fragment_my_library" />
+    <fragment
+        android:id="@+id/theFeed"
+        android:name="com.dr.coursemate.TheFeed"
+        android:label="fragment_the_feed"
+        tools:layout="@layout/fragment_the_feed" >
+        <action
+            android:id="@+id/action_theFeed2_to_myLibrary"
+            app:destination="@id/myLibrary" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wallet"
+        android:name="com.dr.coursemate.Wallet"
+        android:label="fragment_wallet"
+        tools:layout="@layout/fragment_wallet" />
+    <fragment
+        android:id="@+id/liveChatSupport"
+        android:name="com.dr.coursemate.LiveChatSupport"
+        android:label="fragment_live_chat_support"
+        tools:layout="@layout/fragment_live_chat_support" />
+    <fragment
+        android:id="@+id/feedViewer"
+        android:name="com.dr.coursemate.FeedViewer"
+        android:label="fragment_feed_viewer"
+        tools:layout="@layout/fragment_feed_viewer" />
+    <fragment
+        android:id="@+id/webScriptViewer"
+        android:name="com.dr.coursemate.WebScriptViewer"
+        android:label="fragment_web_script_viewer"
+        tools:layout="@layout/fragment_web_script_viewer" />
+    <fragment
+        android:id="@+id/affiliateProgram"
+        android:name="com.dr.coursemate.AffiliateProgram"
+        android:label="fragment_affiliate_program"
+        tools:layout="@layout/fragment_affiliate_program" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.dr.coursemate.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/account"
+        android:name="com.dr.coursemate.MyAccount"
+        android:label="fragment_my_account"
+        tools:layout="@layout/fragment_my_account" />
+    <fragment
+        android:id="@+id/notes"
+        android:name="com.dr.coursemate.notes.Notes"
+        android:label="Notes" />
+    <fragment
+        android:id="@+id/notesEditor"
+        android:name="com.dr.coursemate.notes.NotesEditor"
+        android:label="fragment_notes_editor"
+        tools:layout="@layout/fragment_notes_editor" />
+    <fragment
+        android:id="@+id/notesViewer"
+        android:name="com.dr.coursemate.notes.NotesViewer"
+        android:label="fragment_notes_viewer"
+        tools:layout="@layout/fragment_notes_viewer" />
+    <fragment
+        android:id="@+id/quiz"
+        android:name="com.dr.coursemate.quiz.Quiz"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" />
+    <fragment
+        android:id="@+id/quizChild"
+        android:name="com.dr.coursemate.quiz.QuizChild"
+        android:label="fragment_quiz_child"
+        tools:layout="@layout/fragment_quiz_child" />
+    <fragment
+        android:id="@+id/quizPlayer"
+        android:name="com.dr.coursemate.quiz.QuizPlayer"
+        android:label="fragment_quiz_player"
+        tools:layout="@layout/activity_quiz_player" />
+    <fragment
+        android:id="@+id/postViewer"
+        android:name="com.dr.coursemate.PostViewer"
+        android:label="fragment_post_viewer"
+        tools:layout="@layout/fragment_post_viewer" />
+    <fragment
+        android:id="@+id/notesInfo"
+        android:name="com.dr.coursemate.booksandnotes.NotesInfo"
+        android:label="fragment_notes_info"
+        tools:layout="@layout/fragment_notes_info" />
+    <fragment
+        android:id="@+id/booksAndNotes"
+        android:name="com.dr.coursemate.booksandnotes.BooksAndNotes"
+        android:label="fragment_books_and_notes"
+        tools:layout="@layout/fragment_books_and_notes" />
+    <fragment
+        android:id="@+id/register"
+        android:name="com.dr.coursemate.auth.Register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/verifyOtp"
+        android:name="com.dr.coursemate.auth.VerifyOtp"
+        android:label="fragment_verify_otp"
+        tools:layout="@layout/fragment_verify_otp" />
+    <fragment
+        android:id="@+id/generatePassword"
+        android:name="com.dr.coursemate.auth.GeneratePassword"
+        android:label="fragment_generate_password"
+        tools:layout="@layout/fragment_generate_password" />
+
+
+</navigation>

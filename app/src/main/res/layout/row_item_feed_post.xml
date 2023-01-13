@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:background="@drawable/rounded_bg"
+    android:padding="10sp"
+    android:elevation="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/quiz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@null"
+        android:id="@+id/profile"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        app:layout_constraintStart_toEndOf="@+id/profile"
+        app:layout_constraintTop_toTopOf="@+id/profile"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/futura_medium"
+        android:textSize="14sp"
+        android:id="@+id/username"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40 Minute ago"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintBottom_toBottomOf="@+id/profile"
+        android:textSize="12sp"
+        android:fontFamily="@font/open_sans"
+        android:textColor="@android:color/darker_gray"
+        android:id="@+id/dateTime"
+        />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_baseline_more_vert_24"
+        app:layout_constraintTop_toTopOf="@+id/profile"
+        app:layout_constraintBottom_toBottomOf="@+id/profile"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/more"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="This is awesome caption for this post please save this post now."
+        app:layout_constraintTop_toBottomOf="@+id/profile"
+        android:layout_marginTop="15dp"
+        android:id="@+id/caption"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="10dp"
+        android:fontFamily="@font/open_sans"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/caption"
+        android:id="@+id/viewPager2"
+        android:layout_marginTop="5dp"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 Replies"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager2"
+        android:fontFamily="@font/open_sans"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/viewPager2"
+        android:layout_marginTop="7dp"
+        android:id="@+id/replyCount"
+        />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_outline_thumb_up_alt_24"
+        app:layout_constraintTop_toBottomOf="@+id/replyCount"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="@+id/replyCount"
+        android:id="@+id/like"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12K"
+        app:layout_constraintStart_toEndOf="@+id/like"
+        app:layout_constraintTop_toTopOf="@+id/like"
+        app:layout_constraintBottom_toBottomOf="@+id/like"
+        android:fontFamily="@font/open_sans"
+        android:layout_marginStart="7dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:id="@+id/likeCount"
+        />
+
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_round_bookmark_border_24"
+        app:layout_constraintTop_toBottomOf="@+id/replyCount"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/reply"
+        android:id="@+id/save"
+        />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_baseline_message_24"
+        app:layout_constraintTop_toBottomOf="@+id/replyCount"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/reply"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

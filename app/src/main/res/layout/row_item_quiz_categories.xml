@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|start"
+            android:layout_margin="15dp"
+            android:src="@drawable/india_gate"
+            android:id="@+id/image"
+            android:contentDescription="@null"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India GK"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:shadowRadius="2"
+            android:id="@+id/title"
+            android:layout_gravity="end"
+            android:shadowDy="2"
+            android:shadowDx="2"
+            android:shadowColor="@color/black"
+            android:fontFamily="@font/futura_medium"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:id="@+id/mainLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/parentImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:contentDescription="@null"
+            android:id="@+id/imageView" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="This is title"
+        android:id="@+id/title"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/parentImage"
+        app:layout_constraintStart_toStartOf="@+id/parentImage"
+        app:layout_constraintEnd_toEndOf="@+id/parentImage"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="₹ 4000"
+        android:textColor="#007E06"
+        android:id="@+id/price"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="@+id/title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

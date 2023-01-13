@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarThumbVertical="@null"
+    android:background="@color/dark_bg"
+    tools:context=".quiz.ScoreBoard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="30dp"
+            app:tint="@color/white"
+            android:src="@drawable/ic_round_arrow_back_ios_24"
+            android:id="@+id/back"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_round_menu_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/back"
+            app:layout_constraintBottom_toBottomOf="@+id/back"
+            android:layout_margin="20dp"
+            android:visibility="gone"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:id="@+id/menu"
+            android:contentDescription="@null"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/podium_128"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@null"
+            android:id="@+id/podium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leaderboard"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/podium"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:id="@+id/txtLeaderBoard"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ownScore"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/rounded_bg"
+            app:layout_constraintTop_toBottomOf="@+id/txtLeaderBoard">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Your Score:  200"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:id="@+id/yourScore"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Your Rank:  1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/black"
+                android:id="@+id/yourRank"
+                app:layout_constraintTop_toBottomOf="@+id/yourScore"
+                />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/profile_colore_64"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:riv_corner_radius="25dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/profile"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Retake"
+                app:layout_constraintTop_toBottomOf="@+id/yourRank"
+                app:cornerRadius="10dp"
+                android:layout_marginTop="15dp"
+                app:icon="@drawable/reload_128"
+                android:backgroundTint="@android:color/transparent"
+                android:textColor="@color/black"
+                app:iconTint="@color/black"
+                app:strokeWidth="0.5dp"
+                android:layout_marginEnd="10dp"
+                app:strokeColor="@color/black"
+                app:layout_constraintEnd_toStartOf="@+id/review"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/retake"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Review"
+                app:layout_constraintTop_toBottomOf="@+id/yourRank"
+                app:cornerRadius="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                app:icon="@drawable/review_128"
+                android:backgroundTint="@android:color/transparent"
+                android:textColor="@color/black"
+                app:iconTint="@color/black"
+                app:strokeWidth="0.5dp"
+                app:strokeColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/retake"
+                android:id="@+id/review"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:padding="15dp"
+            android:id="@+id/l1"
+            app:layout_constraintTop_toBottomOf="@+id/ownScore"
+            android:layout_marginTop="10dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/profile_colore_64"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:riv_corner_radius="30dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/profileRank1"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintTop_toBottomOf="@+id/profileRank1"
+                app:layout_constraintStart_toStartOf="@+id/profileRank1"
+                app:layout_constraintEnd_toEndOf="@+id/profileRank1"
+                android:src="@drawable/rank1"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@null"
+                android:id="@+id/ic_rank_1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="---"
+                app:layout_constraintTop_toBottomOf="@+id/ic_rank_1"
+                app:layout_constraintStart_toStartOf="@+id/profileRank1"
+                app:layout_constraintEnd_toEndOf="@+id/profileRank1"
+                android:textSize="10sp"
+                android:fontFamily="@font/roboto"
+                android:id="@+id/userNameRank1"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="---"
+                app:layout_constraintTop_toBottomOf="@+id/userNameRank1"
+                app:layout_constraintStart_toStartOf="@id/profileRank1"
+                app:layout_constraintEnd_toEndOf="@id/profileRank1"
+                android:textColor="@color/white"
+                android:fontFamily="@font/open_sans"
+                android:id="@+id/scoreRank1"
+                android:textSize="12sp"
+                />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/profile_colore_64"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/profileRank1"
+                app:layout_constraintTop_toBottomOf="@id/profileRank1"
+                android:layout_marginTop="-22.5dp"
+                app:riv_corner_radius="30dp"
+                android:id="@+id/profileRank2"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintTop_toBottomOf="@+id/profileRank2"
+                app:layout_constraintStart_toStartOf="@+id/profileRank2"
+                app:layout_constraintEnd_toEndOf="@+id/profileRank2"
+                android:src="@drawable/rank2"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@null"
+                android:id="@+id/ic_rank_2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="---"
+                app:layout_constraintTop_toBottomOf="@+id/ic_rank_2"
+                app:layout_constraintStart_toStartOf="@+id/profileRank2"
+                app:layout_constraintEnd_toEndOf="@+id/profileRank2"
+                android:textSize="10sp"
+                android:fontFamily="@font/roboto"
+                android:id="@+id/userNameRank2"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="---"
+                app:layout_constraintTop_toBottomOf="@+id/userNameRank2"
+                app:layout_constraintStart_toStartOf="@id/profileRank2"
+                app:layout_constraintEnd_toEndOf="@id/profileRank2"
+                android:textColor="@color/white"
+                android:fontFamily="@font/open_sans"
+                android:id="@+id/scoreRank2"
+                android:textSize="12sp"
+                />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/profile_colore_64"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/profileRank1"
+                app:layout_constraintTop_toBottomOf="@id/profileRank1"
+                android:layout_marginTop="-22.5dp"
+                app:riv_corner_radius="30dp"
+                android:id="@+id/profileRank3"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintTop_toBottomOf="@+id/profileRank3"
+                app:layout_constraintStart_toStartOf="@+id/profileRank3"
+                app:layout_constraintEnd_toEndOf="@+id/profileRank3"
+                android:src="@drawable/rank3"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@null"
+                android:id="@+id/ic_rank_3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="---"
+                app:layout_constraintTop_toBottomOf="@+id/ic_rank_3"
+                app:layout_constraintStart_toStartOf="@+id/profileRank3"
+                app:layout_constraintEnd_toEndOf="@+id/profileRank3"
+                android:textSize="10sp"
+                android:fontFamily="@font/roboto"
+                android:id="@+id/userNameRank3"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/white"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="---"
+                app:layout_constraintTop_toBottomOf="@+id/userNameRank3"
+                app:layout_constraintStart_toStartOf="@id/profileRank3"
+                app:layout_constraintEnd_toEndOf="@id/profileRank3"
+                android:textColor="@color/white"
+                android:fontFamily="@font/open_sans"
+                android:id="@+id/scoreRank3"
+                android:textSize="12sp"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/l1"
+            android:weightSum="100"
+            android:id="@+id/headingLayout"
+            android:padding="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:text="Rank"
+                android:gravity="center"
+                android:fontFamily="@font/futura_medium"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="Name"
+                android:gravity="center"
+                android:fontFamily="@font/futura_medium"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="Score"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/futura_medium"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:itemCount="5"
+            app:layout_constraintBottom_toTopOf="@+id/loadMore"
+            app:layout_constraintTop_toBottomOf="@+id/headingLayout"
+            tools:listitem="@layout/row_item_leaderboard"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="vertical"
+            android:id="@+id/rvLeaders"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load More"
+            app:layout_constraintTop_toBottomOf="@+id/rvLeaders"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/loadMore"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
